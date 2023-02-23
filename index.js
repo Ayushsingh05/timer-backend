@@ -13,6 +13,9 @@ app.use(cors({
 
 app.use(express.json())
 app.use('/',routes)
+app.get('/',(req,res)=>{
+  res.send("Reminder app is live...")
+})
 connect().then(res=>{
   console.log("connected to database");
 }).catch(e=>{
