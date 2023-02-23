@@ -1,0 +1,15 @@
+{
+    "T1": {
+      "time": "03:11",
+      "status": "UPCOMING"
+    },
+    "T2": {
+      "time": "15:05",
+      "status": "MONTHLY"
+    },
+    "T3": {
+      "time": "23:05",
+      "status": "COLD"
+    }
+  }
+  
